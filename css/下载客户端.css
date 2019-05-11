@@ -1,0 +1,236 @@
+body{
+	background-color: #fff;
+	    color: #5c5c5c;
+	    font: inherit;
+}
+nav{
+	background-color: #4abdcc;
+}
+/*nav .wrap1,.footer_1,footer .footer_2,.footer_3{
+	width: 930px;
+}*/
+a,a:link,a:active,a:visited{
+	color: white;
+	text-decoration: none;
+}
+section{
+	width: 100%;
+	height: 1700px;
+	position: relative;	
+	overflow: hidden;
+}
+section .top{
+	width: 880px;
+	margin: 0 auto;
+	/*position: relative;*/
+}
+section>img{
+	width: 100%;	
+}
+section .logo img,section h1,section h2,section h3,section .ip0{
+	position: absolute;
+	left: 50%;
+}
+section .logo img{
+	width: 114px;
+    height: 114px;
+    top: 8%;
+    margin-left: -60px;
+}
+section .top h1{
+	font: inherit;
+    font-size: 44px;
+    margin-top: 36px;
+    top: 17%;
+    margin-left: -85px;
+    
+}
+section .top h2{
+	font: inherit;
+    font-size: 36px;
+    margin-top: 20px;
+    top: 24%;
+    margin-left: -121px;
+}
+section .left,section .rigth{
+	background: url('../img/101.png') no-repeat -5px -296px;
+	width: 199px;
+	height: 62px;
+	position: absolute;
+	top: 30%;
+}
+section .left{
+	left: 32%;
+}
+section .rigth{
+	right: 32%;
+}
+section .left:hover{
+	background: url('../img/101.png') no-repeat -5px -229px;
+}
+section .rigth:hover{
+	background: url('../img/101.png') no-repeat -5px -229px;
+}
+section h3{
+	top: 41%;
+	font: inherit;
+	font-size: 28px;
+	text-align: center;
+	margin-left: -223px ;
+}
+section .ip0{
+	top:54%;
+	margin-left: -185px;
+}
+section .mb{
+	width: 100%;
+	height: 600px;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 10%, rgba(255,255,255,0.5) 30%, rgba(255,255,255,1) 100%);
+	/*background-color: rgba(255,255,255,0.8);*/
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.center{
+	width: 100%;
+	height: 3500px;
+	position: relative;
+}
+.center .ip1{
+	position: absolute;
+	left: 17%;
+	bottom: 75%;
+}
+.center .box1{
+	text-align: right;
+	position: absolute;
+	right: 17%;
+	bottom: 83%;
+}
+.center h2{
+	font: inherit;
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+.center h4{
+	font: inherit;
+	font-size: 22px ;
+	line-height: 40px;	
+}
+.center .ip2{
+	position: absolute;
+	right: 17%;
+	bottom: 50%;
+}
+.center .box2{
+	text-align: right;
+	position: absolute;
+	left: 17%;
+	bottom: 58%;
+	text-align: left;
+}
+.center .ip3{
+	position: absolute;
+	left: 17%;
+	bottom: 25%;
+}
+.center .box3{
+	text-align: right;
+	position: absolute;
+	right: 17%;
+	bottom: 33%;
+	text-align: right;
+}
+.center .ip4{
+	position: absolute;
+	right: 17%;
+	bottom: 0;
+}
+.center .box4{
+	text-align: right;
+	position: absolute;
+	left: 17%;
+	bottom: 8%;
+	text-align: left;
+}
+.bottom{
+	position: relative;
+	height: 1200px;
+	overflow: hidden;
+}
+.bottom .bg{
+	position: absolute;
+	top: -30%;
+	left: 0;
+}
+.bottom .bg,.bottom .mb{
+	width: 100%;
+}
+.bottom .mb{
+	height: 700px;	
+	background: -webkit-linear-gradient(top,rgba(255,255,255,1) 0, rgba(255,255,255,0.75) 25%, rgba(255,255,255,0.5) 50%,rgba(255,255,255,0.25) 75%, rgba(255,255,255,0) 100%);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bottom h1{
+	font: inherit;
+    line-height: 56px;
+    font-size: 44px;
+    position: absolute;
+    left: 50%;
+    top: 17%;
+    text-align: center;
+    margin-left: -350px;
+}
+.bottom .ewm{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -72px;
+	margin-left: -75px;
+}
+.bottom .right,.bottom .left{
+	position: absolute;
+	top: 67%;
+	border:1px solid #fff;
+	line-height: 50px;
+	text-align: right;
+	box-sizing: border-box;
+	border-radius: 50px;
+    color: #fff;
+    width: 210px;
+    height: 50px;
+}
+.bottom .right{
+	right: 32%;
+}
+.bottom .left{
+	left: 32%;
+}
+.bottom .btn a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bottom .ios{
+	display: inline-block;
+	background: url(../imgs/ios_white.png);
+	width: 32px;
+	height: 32px;
+}
+.bottom .android{
+	display: inline-block;
+	background: url(../imgs/android_white.png);
+	width: 32px;
+	height: 32px;
+}
+.bottom .ios:hover{
+	background: url(../imgs/android_grey.png);
+}
+.bottom .btn a:hover{
+	background-color: rgba(255,255,255,0.3);
+}
+
+
+

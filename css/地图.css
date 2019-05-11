@@ -1,0 +1,429 @@
+body{
+	background-color: #fff;
+	
+}
+nav{
+	background-color: #4abdcc;
+}
+nav .wrap1,.footer_1,footer .footer_2,.footer_3{
+	width: 930px;
+}
+/*中间*/
+article{
+	width: 930px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+article .top{
+	width: 640px;
+	overflow: hidden;
+	height: 250px;
+	background-image: url(../image/trip_landing_bg.png);
+	background-size: cover;
+}
+
+article .top .top_left{
+	float: left;
+}
+.top_left .tl_logo{
+	background: url('../image/trip_landing_icons.png') no-repeat 0 0;
+	width: 217px;
+	height: 130px;	
+	margin: 13px 0 0 40px;
+}
+.top_left .tl_btn{
+	display: block;
+    color: #4abdcc;
+	font-size: 24px;
+    line-height: 54px;
+    margin: 25px 0 0 65px;
+    text-align: center;
+	background: url('../image/trip_landing_icons.png') no-repeat -22px -155px;
+	width: 192px;
+	height: 53px;
+}
+article .top .top_right{
+	float: right;
+    padding: 36px 0 0 35px;
+    width: 280px;
+}
+article .top .top_right>div{
+	background: url('../image/trip_landing_icons.png') no-repeat -261px 0;
+	width: 220px;
+	height: 50px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+article .top .top_right>div .icon{
+	background: url('../image/trip_landing_icons.png') no-repeat -276px -55px;
+	width: 45px;
+	height: 40px;
+	float: left;
+	margin: 5px 14px;
+}
+article .top .top_right>div p{
+    color: white;
+    font-size: 12px;
+    line-height: 50px;
+}
+article .center{
+	width: 640px;
+	overflow: hidden;
+}
+/*左*/
+article .center .ct_left{
+	
+}
+.ct_left .trip_top{
+	overflow: hidden;
+	margin-top: 30px;
+	width: 640px;
+	position: relative;
+}
+.ct_left .trip_top .trip_user,.ct_left .trip_top .trip_txt{
+	float: left;
+}
+.ct_left .trip_top .trip_user{
+	display: block;
+	border-radius: 78px;
+	border: 5px solid rgba(255,255,255,0.5);
+    height: 78px;
+    width: 78px;
+}
+.ct_left .trip_top .trip_user img{
+	border-radius: 78px;
+}
+.ct_left .trip_top .trip_txt{
+	padding: 10px 0 0 15px;
+    color: #999;
+    font-size: 14px;
+    width: 350px;
+}
+.ct_left .trip_top .trip_txt p:nth-child(1){
+	font-size: 30px;
+    color: #5c5c5c;
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative;
+    word-wrap: break-word;
+}
+.ct_left .trip_top .trip_txt p>span{
+	margin-right: 20px;
+}
+.trip_nav{
+	width: 184px;
+	margin-top: 22px;
+    border-radius: 4px;
+    position: absolute;
+    right: 0;
+    border: 1px solid #e7e7e7;
+    padding: 10px 0px;
+}
+.ct_left .trip_top  .zan{
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
+	color: #57C2D0;
+}
+.ct_left .trip_top  a span{
+	display: inline-block;
+	background: url('../image/trip_icons.png') no-repeat 0 -72px;
+	width: 15px;
+	height: 12px;
+	margin-left: 12px;
+}
+.ct_left .trip_top .trip_tools a b{
+	 font-size: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #4abdcc;
+    padding-right: 6px;
+}
+.ct_left .trip_top .trip_tools a:nth-child(2){   
+    /*border-right: 1px solid #999;*/
+     border-left: 1px solid #999;
+}
+
+.trip_nav_fiexd{
+	z-index: 10;
+	width: 640px;	
+	background: #FFFFFF;	
+	padding: 10px 0;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    display: none;
+    position: fixed;
+    top: 0;
+    
+}
+ .xin{
+	display: inline-block;
+    color: #4abdcc;
+    width: 208px;
+    font-size: 12px;
+    padding: 6px 0;
+    line-height: 1.3;	
+    text-align: center;
+}
+ .xin span{
+	display: inline-block;
+	background: url('../image/trip_icons.png') no-repeat 0 -979px;
+	width: 18px;
+	height: 17px;
+	margin-left: 12px;
+	margin-right: 7px;
+}
+.day{
+	position: relative;
+	margin-bottom: 20px;
+	overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.day .choose{
+	position: absolute;
+	top: 0;
+	float: left;
+	width: 50px;
+	color: black;
+	margin-top: 30px;
+}
+.day .sill li{
+	background: url('../image/trip_icons.png') no-repeat -534px -943px;
+	width: 9px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	left: 50px;
+}
+.day .choose li p{
+	cursor: pointer;
+    height: 30px;
+    display: block;
+    margin-bottom:10px;
+    /*color: #4abdcc;*/
+    color: black;
+    line-height: 30px;
+}
+.day .d_left{
+	margin-left: 50px;
+	width: 557px;
+	float: left;
+	padding-left: 30px;
+	padding-top: 30px;
+	border-left: 4px solid #E7E7E7;
+}
+.day .d_left img{
+	width: 556px;
+	height: 400px;
+}
+.day .days p:nth-child(1){
+	display: flex;
+	align-items: center;
+    color: #5c5c5c;
+    margin: 25px 0;
+    height: 22px;
+    line-height: 22px;
+}
+.days .sun{
+	display: inline-block;
+	background: url('../image/trip_icons.png') no-repeat -544px -947px;
+	width: 22px;
+	height: 22px;
+}
+.days p span{
+	margin-right: 10px;
+}
+.day .days .text{
+	border: 1px solid #E7E7E7;
+	border-top:none ;
+	padding: 10px 20px;
+	font-size: 14px;
+}
+.day .days .p_icon{
+	border: 1px solid #E7E7E7;
+	border-top-color:transparent ;
+	padding: 10px 20px;
+	color: #999;
+	font-size: 12px;
+	overflow: hidden;
+}
+.day .days .p_icon span{
+	float: right;
+	margin-right: 10px;
+}
+
+.day .days .p_icon span:nth-child(1){
+	float: left;
+}
+.commentlist{
+    margin-left: 83px;
+    width: 557px;
+    margin-bottom: 10px;
+}
+.commentlist .commentli{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.com_logo{
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.com_right  {
+    font-size: 16px;
+    color: #5C5C5C;
+}
+.com_name{
+    color: #57C2D0;
+}
+.com_time{
+    margin-top: 5px;
+    font-size: 14px;
+}
+.commentbox{
+    margin-left: 83px;
+    width: 557px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #f7f7f7;
+    margin-bottom: 50px;
+    padding: 15px;
+    text-align: right;
+}
+textarea{
+    background: #EAEAEA;
+    border: 0px;
+    font-size: 12px;
+    height: 60px;
+    overflow: auto;
+    padding: 10px;
+    resize: none;
+    width: 510px;
+}
+
+.fasong{
+    background-color: #4abdcc;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    height: 32px;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #5c5c5c;
+    width: 96px;
+}
+.left{
+	width: 640px;
+}
+.right{
+	width: 270px;
+	margin-top: 50px;
+}
+
+.addnotes,.jiannotes{
+	width: 150px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 100px;
+}
+.addnotes img,.jiannotes img{
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,214 @@
+body{
+	background-color: #fff;
+	
+}
+nav{
+	background-color: #4abdcc;
+}
+nav .wrap1,.footer_1,footer .footer_2,.footer_3{
+	width: 930px;
+}
+/**/
+
+article{
+	width: 100%;
+	position: relative;
+}
+article .title{
+	width: 930px;
+	margin: 0 auto;
+    border-bottom: 2px solid #e7e7e7;
+    height: 68px;
+    line-height: 68px;
+    overflow: hidden;
+}
+article .title div{
+	margin-right: 20px;
+}
+article .title a{
+	color: #B0B0B0;
+	display: block;
+    font-size: 24px;
+    height: 63px;
+    line-height: 68px;
+}
+article .title .hot:nth-child(2) a span{
+	color: #000;
+	padding-left: 20px;
+	border-left: 2px solid #B0B0B0;
+}
+.title .hot,.title .daren{
+	float: left;
+}
+.title .icon{
+	display: none;
+    background: url('../img/hot-trip.png') no-repeat 0 0;
+	width: 9px;
+	height: 5px;
+    margin: 0 auto;  
+}
+article .center{
+	width: 930px;
+	margin: 20px auto;
+	overflow: hidden;
+	padding: 10px;
+}
+article .center1>div{
+	float: left;
+    background: #f2f2f2;
+    height: 204px;
+    margin-bottom: 18px;
+    margin-right: 12px;
+    padding: 10px;
+    width: 278px; 
+    overflow: hidden;
+}
+article .center>div .cf_top img{
+	width: 278px;
+    height: 160.5px;
+    /*margin-top: -26.25px;*/
+    margin-left: 0px;
+}
+.cf_bottom{
+	overflow: hidden;
+	margin-top: 5px;
+}
+.cf_bottom .b_left{
+	float: left;
+	line-height: 20px;
+    margin-bottom: 4px;
+    width: 215px;
+}
+.cf_bottom .b_left .bp1{
+    color: #4abdcc;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	overflow: hidden;
+}
+.cf_bottom .b_left .bp2{
+    color: #999999;
+    font-size: 12px;
+}
+.cf_bottom .b_right{
+	float: right;
+    border-left: 1px solid #c9c9c9;
+    height: 38px;
+    width: 51px;
+}
+/*.center2 ul{
+	float: left;
+    background: #f2f2f2;
+    margin-right: 9px;
+    margin-left: 3px;
+    margin-bottom: 18px;
+    padding: 10px;
+    width: 298px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.center2 ul>div{
+	margin-bottom: 10px;
+}
+*/
+.center2 .center_2 .ct_head{
+	height: 42px;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+	font-size: 14px;
+}
+.center2 .center_2 .ct_body p{
+    color: #5c5c5c;
+    line-height: 16px;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.center2 ul{
+	width: 100%;
+	/*overflow: hidden;*/
+	position: relative;
+	list-style: none;
+	/*transition: all 1s;*/
+	
+}
+.center2 ul li{
+	/*float: left;*/
+	position: absolute;
+	width: 298px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-right: 10px;
+	background: #f2f2f2;
+	transition: all 1s;
+}
+.ct_dec{
+	width: 200px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	overflow: hidden;
+}
+.center2 ul li img{
+	width: 100%;
+}
+
+
+.ct_h_left{
+	font-size: 18px;
+}
+.ct_h_right{
+	font-size: 12px;
+	color: #3c3c3c;
+}
+
+.moreBtn{
+	width: 930px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    color: #999999;
+	text-align: center;
+	height: 28px;
+	margin: 0 auto 20px;
+	line-height: 28px;
+	font-size: 12px;
+	cursor: pointer;
+	/*vertical-align: middle;*/
+}
+
+
+
+.fhByn{
+	width: 60px;
+	height: 60px;
+	background-color: #F2F2F2;
+	position: fixed;	
+	bottom: 20px;
+	right: 80px;
+	text-align: center;
+	line-height: 60px;
+}
+.fhByn span{
+	display: inline-block;
+	background: url('../img/hot-trip.png') no-repeat -200px 0;
+	width: 23px;
+	height: 16px;
+}
+.fhByn:hover{
+	/*background: url('../img/hot-trip.png') no-repeat -230px 0;*/
+	background-color: #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+

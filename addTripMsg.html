@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建游记</title>
+    <link rel="stylesheet" type="text/css" href="css/addTripMsg.css" />
+</head>
+<body>
+<div class="back"><img src="image/back.png"></img>返回</div>
+<section>
+    <div class="travel">
+        <div class="top">
+            <div class="t_left">
+                <input class="tripName title" placeholder="请输入游记名称" />
+                <textarea class="tripName content" placeholder="请输入游记内容"></textarea>
+            </div>
+            <div class="">
+                <div class="tripImg">
+                    <img class="titleImg" src="" alt="">
+                    <img class="addimg" src="image/addImg.png" />
+                    <input class="addImg traveladd" type="file" />
+                </div>
+                <div class="b_text">点击添加封面</div>
+            </div>
+        </div>
+        <div class="bottom">
+            <select id="privacy" name="privacy">
+                <option selected="selected" value="0">公开</option>
+                <option value="1">仅自己可见</option>
+            </select>
+            <img src="image/down.png" alt="">
+            <div class="createbtn">创建游记</div>
+        </div>
+    </div>
+    <div class="notes">
+        <div class="imgBox">
+
+        </div>
+        <div class="note_box">
+            <div class="tripImg">
+                <img class="titleImg" src="" alt="">
+                <img class="addimg" src="image/addImg.png" />
+                <input class="addImg noteadd" type="file" />
+            </div>
+            <div class="b_text">点击添加图片</div>
+        </div>
+        <div class="createNote">添加日记</div>
+    </div>
+</section>
+
+
+
+<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/swiper-4.3.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/addTripMsg.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

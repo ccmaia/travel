@@ -1,0 +1,230 @@
+body{
+	background-color: #fff;
+	
+}
+nav{
+	background-color: #4abdcc;
+}
+nav .wrap1,.footer_1,footer .footer_2,.footer_3{
+	width: 930px;
+}
+a,a:link,a:active,a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+article{
+	padding-left: 10px;
+	width: 930px;
+	margin: 0 auto;
+	margin-top: 20px;
+	overflow: hidden;
+}
+article .left{
+	float: left;
+	width: 640px;
+}
+.swiper-container {
+    width: 640px;
+    height: 320px;
+} 
+
+article .place{
+	margin: 20px 0;
+    overflow: hidden;
+    margin-left: -10px;
+    padding-left: 10px;
+}
+article .place>div{
+	position: relative;
+}
+article .place .placeLeft{
+	background: url('../img1/regions.png') no-repeat 0 -83px;
+	width: 310px;
+	height: 100px;
+	float: left;
+}
+article .place .placeRight{
+	background: url('../img1/regions.png') no-repeat 0 -187px;
+	width: 310px;
+	height: 100px;
+	float: right;
+}
+article .place div a{
+    color: #ffffff;
+    height: 62px;
+    left: -7px;
+    opacity: 0.99;
+    position: absolute;
+    top: 20px;  
+    width: 125px;
+}
+article .place .placeLeft a{
+	background: url('../img1/regions.png') no-repeat 0 -293px;
+	width: 125px;
+	height: 62px;
+}
+article .place .placeRight a{
+	background: url('../img1/regions.png') no-repeat 0 -359px;
+	width: 124px;
+	height: 62px;
+}
+article .place div .s1,.s2{
+    font-size: 28px;
+    margin: 10px 0 0 22px;
+}
+article .place .s3{
+    font-size: 14px;
+    margin: 2px 0 0 22px;
+}
+article .place .placeRight .s1,article .place .placeRight .s2{
+	font-size: 18px;
+}
+article .place .s4{
+	background: url('../img1/regions.png') no-repeat -79px -54px;
+	width: 11px;
+	height: 16px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+ article .left .title{
+ 	overflow: hidden;
+ 	background: #f2f2f2;
+    color: #5c5c5c;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+ }
+ article .left .title>div{
+ 	float: left;
+ }
+ article .left .title .img1{
+ 	padding: 12px 20px 10px 20px;
+ 	background: #4ABDCC;
+ 	margin-right: 10px;
+ }
+ article .left .title .img1>div{	
+	background: url('../img1/regions.png') no-repeat -97px -13px;
+	width: 20px;
+	height: 18px;
+ }
+ 
+ article .center{
+     display: flex;
+     justify-content: space-between;
+     align-content: center;
+     flex-wrap: wrap;
+ }
+article .ct_photo{
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+article .ct_photo .bg{
+	width: 100%;
+	height: 100%;
+}
+article .ct_photo .txt{
+	background: url('../img1/regions.png') no-repeat 0 -428px;
+	width: 136px;
+	height: 48px;
+	font-size: 20px;
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	padding: 10px;
+}
+article .ct_photo .txt p:nth-child(2){
+    color: #b0b0b0;
+    font-size: 12px;
+}
+
+article .right{
+	float: right;
+	width: 260px;
+	box-sizing: border-box;
+}
+article .right .city{
+    background: #f2f2f2;
+    height: 340px;
+    padding: 0 14px;
+    width: 232px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+article .right .city .top{
+	padding: 7px 0;
+	color: #5c5c5c;
+    font-size: 14px;
+    margin-bottom: 30px;	
+}
+article .right .city .top>div{
+	float: left;
+}
+article .right .top div:nth-child(1){
+  	margin-right: 7px;
+    background: url('../img1/regions.png') no-repeat -2px -52px;
+	width: 17px;
+	height: 18px;
+}
+article .right .top  .top_img{
+	background: url('imgs/regions.png') no-repeat -35px -54px;
+	width: 20px;
+	height: 14px;
+}
+article .right .city .pana{
+	width: 116px;
+	float: left;
+}
+article .right .city .item {
+    color: #999999;
+    font-size: 12px;
+    height: 20px;
+    padding: 4px;
+    width: 108px;
+    overflow: hidden;
+}
+article .right .city .item a>div{
+    background: #fc5d7b;
+    color: #ffffff;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 20px;
+    float: left;
+}
+article .right .city .item h4{
+	background: #e7e7e7;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 7px;
+    width: 74px;
+    float: left;
+    color: #999;
+}
+.link{
+    margin-bottom: 10px;
+}
+.link{
+    width: 213px;
+    /*height: 220px;*/
+    display: block;
+
+}
+.bg img{
+    width: 100%;
+    height: 100%;
+
+}
+.alink{
+    display: block;
+    height: 28px;
+    width: 100%;
+    font-size: 12px;
+    color: #999999;
+}

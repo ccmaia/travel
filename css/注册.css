@@ -1,0 +1,148 @@
+body{
+	background-color: #fff;
+	
+}
+nav{
+	background-color: #4abdcc;
+}
+nav .wrap1,.footer_1,footer .footer_2,.footer_3{
+	width: 930px;
+}
+
+article{
+	width: 100%;
+	height: 550px;
+}
+
+
+article .title{
+	font-size: 20px;
+	font-family: "黑体";
+	font-style: normal;
+	color: #3c3c3c;
+	margin-top: 15px;
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid #BABABA;
+}
+.div_left{
+	width: 570px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.div_left .header1{
+	width: 226px;
+	height: 30px;
+	margin-top: 30px;
+}
+.div_left .header1>h2{
+	width: 56px;
+	height: 20px;
+	color: #B19999;
+	font:  400 14px "微软雅黑";
+	display: inline-block;
+	float: left;
+	margin-top: 0px;
+}
+.div_left .header1>div{
+	color: #4ACADF;
+	display: inline-block;
+	float: right;
+	margin-left: 10px;
+	font:  400 14px "微软雅黑";
+}
+
+
+.div_left .left_1{
+	float: left;
+}
+.div_left .left_1 p{
+	width: 226px;
+	height: 30px;
+	color: #9B9B9B;
+	font-size: 14px;
+	line-height: 30px;
+}
+.div_left .left_1 input{
+	width: 226px;
+	height: 30px;
+	background-color: #EAEAEA;
+	border: 0;
+}
+.div_left .left_1 #duan{
+	float: left;
+	width: 125px;
+	height: 32px;
+}
+.div_left .left_1 img{
+	width: 100px;
+	height: 32px;
+	margin-right: 10px;
+}
+.div_left .left_1 .foot_1{
+	width: 226px;
+	height: 30px;
+	font: 13px "微软雅黑";
+	line-height: 30px;
+	color: #A59999;
+}
+.div_left .left_1 .foot_1 .fuwu{
+	color: #4ABDCC;
+	display: inline-block;
+}
+.div_left .left_1 .foot_1 .fuwu:hover{
+	color: #168391;
+}
+.div_left .left_1 .loginbtn,.registerbtn{
+	width: 96px;
+	height: 32px;
+	background-color: #4ABDCC;
+	text-align: center;
+	color: #FFFFFF;
+	border: 0;
+}
+.div_left .left_1 .btn:hover{
+	color: #FFFFFF;
+	background-color: #168391;
+}
+.div_left .right_1{
+	float: right;
+	width: 275px;
+	height: 300px;
+}
+.div_left .right_1>h3{
+	display: inline-block;
+	font: 14px "微软雅黑";
+	font-style: normal; 
+	color: #959595;
+	font-size: 15px;
+}
+.div_left .right_1 div{
+	width: 275px;
+	height: 80px;
+	margin-top: 10px;
+}
+.div_left .right_1 p{
+	width: 185px;
+	height: 80px;
+	margin-left: 80px;
+	line-height: 70px;
+	display: inline-block;
+	color: #5c5c5c;
+	font-size: 13px;
+}
+.right_1>div{
+	border-bottom: 1px solid #E7E7E7;
+	}
+.div_left .right_1 .right-1{
+	background: url('../image/reg1.png') no-repeat 0 0;
+}
+.div_left .right_1 .right-2{
+	background: url('../image/reg1.png') no-repeat -2px -78px;;
+}
+.div_left .right_1 .right-3{
+	background: url('../image/reg1.png') no-repeat -4px -150px;;
+}
+
+
+

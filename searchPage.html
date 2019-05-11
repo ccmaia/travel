@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>搜索</title>
+    <link rel="stylesheet" type="text/css" href="css/head_footer.css"/>
+    <link rel="stylesheet" type="text/css" href="css/searchPage.css"/>
+</head>
+<body>
+<nav>
+    <div class="wrap1">
+        <div class="wrap">
+            <div class="logo"><a href="背包旅行.html"></a></div>
+            <ul>
+                <li><a href="热门游记.html">热门游记</a></li>
+                <li><a href="目的地.html">目的地</a></li>
+            </ul>
+            <div class="you">
+                <div class="div0"><input onKeyPress="if(window.event.keyCode==13) this.blur()" class="sousuo" type="text" value="" placeholder="搜索地点/用户"/></div>
+                <div class="div1"><span class="personal">个人中心</span></div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section>
+    <ul class="typeli">
+        <li>游记</li>
+        <li>景点</li>
+        <li>用户</li>
+    </ul>
+    <div class="content">
+        <div class="result"></div>
+        <div class="contentList">
+            <!--<div class='userli'>-->
+                <!--<img class='userLogo' src='' >-->
+                <!--<div class=''>-->
+                    <!--<p class='name'></p>-->
+                    <!--<p class="msg"></p>-->
+                <!--</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+</section>
+
+<script src="js/head-footer.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/searchPage.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

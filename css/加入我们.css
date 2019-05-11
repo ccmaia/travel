@@ -1,0 +1,193 @@
+body{
+	background-color: #fff;
+	color: #5C5C5C;
+}
+nav{
+	background-color: #4abdcc;
+}
+nav .wrap1,.footer_1,footer .footer_2,.footer_3{
+	width: 930px;
+}
+a,a:link,a:active,a:visited{
+	color: white;
+	text-decoration: none;
+}
+article,section{
+	width: 100%;
+}
+article{
+	background-color: #F2F2F2;
+}
+article .all{
+	width: 930px;
+	margin: 0 auto;
+	padding: 80px 0;
+}
+article .all div:nth-child(1){
+	overflow: hidden;
+}
+article .left{
+	float: left;
+	width: 380px;
+}
+article .left p{
+	margin-top: 10px;
+	font-size: 14px;
+    line-height: 18px;
+    padding: 0.3em;
+    color: #5C5C5C;
+}
+article .right{
+	float: right;
+	background: url('../imgs/career_icons.png') no-repeat -449px -30px;
+	width: 410px;
+	height: 118px;
+}
+article .left .title{
+	background: url('../imgs/career_icons.png') no-repeat 0 0;
+	width: 272px;
+	height: 111px;
+}
+article .all .btn{
+    margin-top: 10px;
+    text-align: center;
+    width: 161px;
+    background: #4abdcc;
+    border-radius: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 32px;
+    line-height: 32px;
+}
+section .conter{
+	width: 930px;
+	margin: 0 auto;
+}
+section .conter h2{
+	font: inherit;
+    color: #5c5c5c;
+    font-size: 30px;
+    line-height: 70px;
+}
+section .conter>p{
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0.3em;
+}
+section .conter>p a{
+    color: #4abdcc;
+}
+.tables>ul{
+    border-bottom: 1px solid #e7e7e7;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+}
+.tables>ul li{
+    padding: 20px 10px;
+    font-size: 30px;
+    float: left;
+}
+.tables ul .li2 span{
+	padding: 0 20px;
+    border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+}
+.tables ul>span{
+	display: none;
+	background: url('../img/hot-trip.png') no-repeat 0 0;
+	width: 9px;
+	height: 5px;
+	position: absolute;
+}
+.tables ul .span1{
+	top: 75px;
+	left: 35px;
+}
+.tables ul .span2{
+	top: 75px;
+	left: 153px;
+}
+.tables ul .span3{
+	top: 75px;
+	left: 280px;
+}
+section .tables .ul2 li{
+	font-size: 18px;
+	padding: 10px;
+}
+.tables .ul2 .span1{
+	top: 39px;
+	left: 23px;
+}
+.tables .ul2 .span2{
+	top: 39px;
+	left: 102px;
+}
+.tables .ul2 .span3{
+	top: 39px;
+	left: 177px;
+}
+section .tables .tab_txt{
+	margin-bottom: 45px;
+}
+section .tables .tab_txt>ul{
+	border: none;
+	display: none;
+}
+section .tables .tab_txt ul p{
+    color: #4abdcc;
+    font-size: 18px;
+    line-height: 1.8em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+section .tables .tab_txt ul li{
+    color: #5c5c5c;
+    font-size: 14px;
+    margin-top: 0;
+}
+section .tables .tab_txt>ul ul{
+	    list-style: disc;
+	    padding-left: 20px;
+	    margin: 10px 0;
+}
+section .tables .tab_txt .career-text li{
+	color: #999999;
+    font-size: 14px;
+    line-height: 2em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

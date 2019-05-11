@@ -1,0 +1,187 @@
+nav{
+    background-color: #4abdcc;
+}
+nav .wrap1, .footer_1, footer .footer_2,article{
+    width: 930px;
+    margin: 0 auto;
+}
+article{
+    padding: 20px 0px;
+    min-height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.top_logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    margin-right: 20px;
+    border:3px solid #c9c9c9;
+}
+.topuser{
+    /*width: 640px;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.username{
+    max-width: 400px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    color: #5c5c5c;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.top_right text{
+    color: #999999;
+    font-size: 12px;
+    line-height: 25px;
+}
+.focus{
+    border-right: 1px solid #e7e7e7;
+    padding: 0px 14px 0px 0px;
+}
+.fans{
+    margin-right: 20px;
+    padding: 0px 0px 0px 14px;
+}
+
+.user-nav {
+    width: 640px;
+    border-radius: 3px;
+    border: 1px solid #e7e7e7;
+    height: 30px;
+    margin-top: 25px;
+    padding: 8px 0px;
+    margin-bottom: 40px;
+}
+ .user-nav .nav-item:first-child {
+    border-left: 0px solid #ffffff;
+}
+.nav-item {
+    border-left: 1px solid #e7e7e7;
+    display: block;
+    float: left;
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    width: 210px;
+}
+a, a:link, a:visited {
+    color: #4abdcc;
+    text-decoration: none;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+.module{
+    padding: 0;
+    width: 640px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.module .m_title{
+    color: #5c5c5c;
+    font-size: 28px;
+}
+.m_conten{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.travelcontent{
+    display: block;
+    /*float: left;*/
+    height: 310px;
+    margin-top: 20px;
+    width: 310px;
+    border: 1px solid #c9c9c9;
+}
+.placecontent{
+    display: block;
+    /*float: left;*/
+    height: 260px;
+    margin-top: 20px;
+    width: 310px;
+    position: relative;
+}
+.top_pot{
+    width: 100%;
+    margin-top: 0px;
+    height: 238px;
+}
+.bot_msg{
+    overflow: hidden;
+    padding: 10px 20px;
+}
+.m_left{
+    float: left;
+    width: 200px;
+}
+.m_left>div:nth-child(1){
+    width: 200px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 20px;
+    color: #5c5c5c;
+}
+.m_left>div:nth-child(2){
+    font-size: 14px;
+    color: #5c5c5c;
+}
+.m_right{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5c5c5c;
+    font-size: 14px;
+}
+.placename{
+    width: 100%;
+    font-size: 28px;
+    color: #ffffff;
+    position: absolute;
+    top: 70%;
+    left: 10px;
+}
+.top_left{
+    position: relative;
+}
+.reviseLogo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+.coontent_right{
+    color: #57C2D0;
+    font-size: 22px;
+}
+.coontent_right>div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}

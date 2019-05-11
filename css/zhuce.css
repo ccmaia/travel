@@ -1,0 +1,432 @@
+
+.mb{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+/*登录布局*/
+.wide{
+	width: 530px;
+	height: 355px;
+	position: absolute;
+	background-color: #FFFFFF;
+	/*overflow: visible;*/
+	font-family: "微软雅黑";
+	font-size: 13px;
+	left: 50%;
+	top: 50%;
+	margin-top: -128px;
+	margin-left: -265px;
+	}
+.wide>h3{
+	width: 494px;
+	height: 45px;
+	border-bottom: 1px solid #E7E7E7;
+	margin-left: 10px;
+	font: 14px "微软雅黑";
+	color: #5c5c5c;
+	line-height: 45px;
+}	
+.wide>h3 .close-login{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	float: right;
+	margin-top: 12px;
+	line-height: 24px;
+	text-align: center;
+	color: #9B9B9B;
+	font-size: 20px;
+}
+
+.wide .login-left{
+	float: left;
+	width: 185px;
+	height: 260px;
+	background-color: white;
+	margin-left: 15px;
+	margin-top: 10px;
+	border-right: 1px solid #E7E7E7;
+}
+.wide .login-left h4{
+	color: #696969;
+	font: 14px  "微软雅黑";
+	text-align: center;
+	margin-top: 30px;
+}
+.wide .login-left ul{
+	margin-top: 30px;
+}
+.wide .login-left li{
+	width: 48px;
+	height: 62px;
+	display: block;
+	float: left;
+	/*background-color: black;*/
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.wide .login-left li a{
+	width: 44px;
+	height: 44px;
+	display: inline-block;
+	border-radius: 10px;
+	border: 1px solid #4BBDCC;
+}
+.wide .login-left li span{
+	width: 48px;
+	height: 10px;
+	text-align: center;
+	color: #4ABDCC;
+	font-size: 10px;
+	display: block;
+}
+.wide .login-left .wx-1{
+	background: url(../image/微信移入.png) no-repeat center center;
+	/*background-size: cover;*/
+}
+.wide .login-left .wx-1:hover{
+	background: url(../image/微信.png) no-repeat center center;
+	background-color: #4ABDCC;
+}
+.wide .login-left .wb-1{
+	background: url(../img/微博移入.png) no-repeat center center;
+}
+.wide .login-left .wb-1:hover{
+	background: url(../img/微博.png) no-repeat center center;
+	background-color: #4ABDCC;
+}
+.wide .login-left .qq-1{
+	background: url(../img/QQ移入.png) no-repeat center center;
+}
+.wide .login-left .qq-1:hover{
+	background: url(../img/QQ.png) no-repeat center center;
+	background-color: #4ABDCC;
+}
+.wide .login-left .txwb-1{
+	background: url(../img/腾讯微博移入.png) no-repeat center center;
+}
+.wide .login-left .txwb-1:hover{
+	background: url(../img/腾讯微博.png) no-repeat center center;
+	background-color: #4ABDCC;
+}
+.wide .login-right{
+	float: right;
+	width: 290px;
+	height: 260px;
+	background-color: white;
+	margin-right: 15px;
+}
+
+.wide .login-right h4{
+	width: 290px;
+	height: 30px;
+}
+.wide .login-right h4 .shoudeng{
+	font: 15px "微软雅黑";
+	width: 260px;
+	height: 15px;
+	display: inline-block;
+	color: #696969;
+	margin-top: 10px;
+}
+.wide .login-right h4 .shouzhu{
+	float: right;
+	width: 28px;
+	height: 20px;
+	display: inline-block;
+	color: #57C2D0;
+	margin-top: 10px;
+	font: 14px "微软雅黑";
+}
+.wide .login-right h4 a:hover{
+	color: #168391;
+}
+.wide .login-right form{
+	width: 290px;
+	height: 230px;
+	margin: 10px auto 0;
+}
+
+.wide .login-right form input{
+	width: 290px;
+	height: 40px;
+	border: 1px solid #E7E7E7;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+.wide .login-right form .yanzheng{
+	width: 290px;
+	height: 49px;
+}
+.wide .login-right form .inp_3{
+	width: 161px;
+	height: 47px;
+}
+.wide .login-right form img{
+	float: right;
+	margin-top: 10px;
+}
+.wide .login-right form .forget{
+	width: 290px;
+	height: 19px;
+}
+.login-right form .forget>input{
+	width: 10px;
+	height: 10px;
+}
+.login-right form .forget>label{
+	color: #5A5A5A;
+	font: 14px "微软雅黑";
+}
+.login-right form .forget>a{
+	display: inline-block;
+	color: #4ABDCC;
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.login-right form .forget>a:hover{
+	color: #168391;
+}
+.login-right form .foot-login{
+	background-color: #4ABDCC;
+	color: #FFFFFF;
+	text-align: center;
+}
+.login-right form .foot-login:hover{
+	background-color: #3AADBC;
+}
+
+/*login*/
+a{
+	text-decoration: none;
+}
+.wide{
+	width: 570px;
+	height: 355px;
+	position: absolute;
+	background-color: #FFFFFF;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	left: 50%;
+	top: 50%;
+	margin-top: -128px;
+	margin-left: -265px;
+	overflow: hidden;
+	}
+.wide>h3{
+	width: 520px;
+	height: 45px;
+	border-bottom: 1px solid #E7E7E7;
+	margin-left: 20px;
+	font: 14px "微软雅黑";
+	color: #5c5c5c;
+	line-height: 45px;
+}	
+.wide>h3 .close-login{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	float: right;
+	margin-top: 12px;
+	line-height: 24px;
+	text-align: center;
+	color: #9B9B9B;
+	font-size: 20px;
+	border: 1px solid;
+	cursor: pointer;
+}
+
+.wide .login-left{
+	float: left;
+	width: 220px;
+	height: 260px;
+	background-color: white;
+	margin-left: 15px;
+	margin-top: 10px;
+	border-right: 1px solid #E7E7E7;
+}
+.wide .login-left h4{
+	color: #696969;
+	font: 14px  "微软雅黑";
+	text-align: center;
+	margin-top: 30px;
+}
+.wide .login-left ul{
+	margin-top: 30px;
+}
+.wide .login-left li{
+	width: 48px;
+	height: 62px;
+	display: block;
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.wide .login-left li a{
+	width: 44px;
+	height: 44px;
+	display: inline-block;
+	border-radius: 10px;
+	border: 1px solid #4BBDCC;
+}
+.wide .login-left li span{
+	width: 48px;
+	height: 10px;
+	text-align: center;
+	color: #4ABDCC;
+	font-size: 10px;
+	display: block;
+}
+.wide .login-left .wx-1{
+	background: url(../image/微信移入.png) no-repeat center center;
+	/*background-size: cover;*/
+}
+.wide .login-left .wx-1:hover{
+	background: url(../image/微信.png) no-repeat center center;
+	background-color: #4ABDCC;
+}
+.wide .login-left .wb-1{
+	background: url(../image/微博移入.png) no-repeat center center;
+}
+.wide .login-left .wb-1:hover{
+	background: url(../image/微博.png) no-repeat center center;
+	background-color: #4ABDCC;
+}
+.wide .login-left .qq-1{
+	background: url(../image/QQ移入.png) no-repeat center center;
+}
+.wide .login-left .qq-1:hover{
+	background: url(../image/QQ.png) no-repeat center center;
+	background-color: #4ABDCC;
+}
+.wide .login-left .txwb-1{
+	background: url(../image/腾讯微博移入.png) no-repeat center center;
+}
+.wide .login-left .txwb-1:hover{
+	background: url(../image/腾讯微博.png) no-repeat center center;
+	background-color: #4ABDCC;
+}
+.wide .login-right{
+	float: right;
+	width: 290px;
+	height: 260px;
+	background-color: white;
+	margin-right: 15px;
+}
+.wide .login-right h4{
+	width: 290px;
+	height: 30px;
+	margin-top: -5px;
+}
+.wide .login-right h4 .zhu{
+	float: right;
+	width: 28px;
+	height: 20px;
+	display: inline-block;
+	color: #57C2D0;
+	margin-right: 10px;
+	margin-top: 10px;
+	font: 14px "微软雅黑";
+}
+.wide .login-right h4 .youxiang{
+	width: 160px;
+	height: 16px;
+	display: inline-block;
+	color: #5C5C5C;
+	margin-top: 10px;
+	font: 14px "微软雅黑";
+}
+.wide .login-right h4 a:hover{
+	color: #168391;
+}
+
+.wide .login-right form{
+	width: 290px;
+	height: 230px;
+	margin: 10px auto 0;
+}
+.wide .login-right form .p-num{
+	width: 290px;
+	height: 40px;
+	border: 1px solid #E7E7E7;
+}
+.login-right form .p-num .cou_num{
+	width: 50px;
+	height: 24px;
+	border: none;
+	border-right: 1px solid #E7E7E7;
+	margin-left: 0;
+	line-height: 24px;
+}
+.login-right form .p-num .pnum{
+	width: 210px;
+	height: 38px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 0px;
+	/*border-left: none;*/
+	border: 0;
+}
+.wide .login-right form input{
+	width: 280px;
+	height: 40px;
+	border: 1px solid #E7E7E7;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+.wide .login-right form .yanzheng{
+	width: 290px;
+	height: 49px;
+}
+.wide .login-right form .inp_3{
+	width: 161px;
+	height: 47px;
+}
+.wide .login-right form image{
+	float: right;
+	margin-top: 10px;
+}
+.wide .login-right form .forget{
+	width: 290px;
+	height: 19px;
+}
+.login-right form .forget>input{
+	width: 10px;
+	height: 10px;
+}
+.login-right form .forget>label{
+	color: #5A5A5A;
+	font: 14px "微软雅黑";
+}
+.login-right form .forget>a{
+	display: inline-block;
+	color: #4ABDCC;
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.login-right form .forget>a:hover{
+	color: #168391;
+}
+.login-right form .foot-login{
+	background-color: #4ABDCC;
+	color: #FFFFFF;
+	text-align: center;
+}
+.login-right form .foot-login:hover{
+	background-color: #3AADBC;
+}
+body{
+	background-color: #fff;
+	
+}
+nav{
+	background-color: #4abdcc;
+}
+nav .wrap1,.footer_1,footer .footer_2,.footer_3{
+	width: 930px;
+}
