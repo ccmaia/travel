@@ -5,6 +5,8 @@
 
 前端用的是jq，后端PHP。
 
+xampp虚拟服务器  mysql数据库
+
 开发工具phpStorm
 
 
